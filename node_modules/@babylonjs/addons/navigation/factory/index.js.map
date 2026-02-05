@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../dev/addons/src/navigation/factory/index.ts"],"names":[],"mappings":"AAAA,oCAAoC;AACpC,cAAc,yBAAyB,CAAC","sourcesContent":["// export * from \"./factory.worker\";\nexport * from \"./factory.single-thread\";\n"]}
