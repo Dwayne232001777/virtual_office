@@ -1,12 +1,6 @@
-import { defineConfig } from 'vite'
+/** @type {import('vite').UserConfig} */
+const config = {
+  base: '/virtual_office/'
+};
 
-export default defineConfig({
-  base: '/virtual_office/',  // <-- change to YOUR repo name
-})
-```
-
-### 3. Create `.gitignore` (new file in root folder)
-```
-node_modules
-dist
-.DS_Store
+export default config;
